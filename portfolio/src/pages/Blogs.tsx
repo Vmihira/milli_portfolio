@@ -66,6 +66,38 @@ const blogs = [
     readTime: "3 min read",
     tags: ["AI", "TypeScript", "Framework"],
   },
+  {
+    title: "Retrieval-Augmented Generation (RAG): The Future of Intelligent AI",
+    description: "A hybrid AI approach that enhances accuracy by retrieving relevant information first and then generating context-aware, fact-based responses.",
+    url: "https://medium.com/@vinjamurimihira/retrieval-augmented-generation-rag-the-future-of-intelligent-ai-fa8a564fde4b",
+    date: "Mar 2025",
+    readTime: "3 min read",
+    tags: ["AI", "RAG", "Framework"],
+  },
+  {
+    title: "Agentic AI: The Next Evolution in Autonomous Intelligence",
+    description: "Agentic AI stands out as a revolutionary approach that enables AI systems to act autonomously, make decisions, and interact dynamically with the world.",
+    url: "https://medium.com/@vinjamurimihira/agentic-ai-the-next-evolution-in-autonomous-intelligence-7db110472728",
+    date: "Mar 2025",
+    readTime: "3 min read",
+    tags: ["AI", "Agentic AI"],
+  },
+  {
+    title: "The Rise of Generative AI: Shaping the Future of Creativity and Innovation",
+    description: "Generative AI is no longer a futuristic concept — it’s here, transforming industries, revolutionizing creativity, and reshaping how we interact with technology.",
+    url: "https://medium.com/@vinjamurimihira/the-rise-of-generative-ai-shaping-the-future-of-creativity-and-innovation-110220462bc7",
+    date: "Mar 2025",
+    readTime: "3 min read",
+    tags: ["AI", "Generative AI"],
+  },
+  {
+    title: "The AI Revolution: Reshaping the Future One Algorithm at a Time",
+    description: "Artificial Intelligence is no longer just a futuristic concept — it’s the backbone of modern innovation.",
+    url: "https://medium.com/@vinjamurimihira/the-ai-revolution-reshaping-the-future-one-algorithm-at-a-time-8e8e37b2cc19",
+    date: "Feb 2025",
+    readTime: "3 min read",
+    tags: ["AI", "Future", "Innovation", "Technology"],
+  },
 ];
 
 const Blogs = () => {

@@ -1,4 +1,4 @@
-import { ExternalLink, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const projects = [
   {
@@ -7,6 +7,7 @@ const projects = [
       "A smart assistant that lets users ask questions via voice or text and delivers accurate, citation-backed answers.",
     tags: ["Python", "RAG", "Deepgram", "Pinecone", "SerpAPI", "Gen AI"],
     gradient: "from-primary/25 to-secondary/25",
+    link: "#",
   },
   {
     title: "Web Studio",
@@ -14,6 +15,7 @@ const projects = [
       "AI-powered platform that generates custom, production-ready landing pages with real-time code previews and exports.",
     tags: ["Python", "Flask", "Generative AI", "React JS", "SandPack"],
     gradient: "from-secondary/25 to-accent/25",
+    link: "#",
   },
   {
     title: "Style AI",
@@ -21,6 +23,7 @@ const projects = [
       "Generative AI fashion platform creating personalized outfit visuals based on user-selected categories.",
     tags: ["Next.js", "Tailwind CSS", "Generative AI", "Python"],
     gradient: "from-accent/25 to-primary/25",
+    link: "#",
   },
   {
     title: "AI PR Summarizer",
@@ -28,6 +31,7 @@ const projects = [
       "GitHub tool that tracks PRs and generates AI-driven summaries using Gemini APIs for faster code reviews.",
     tags: ["Generative AI", "Flask", "PyGithub", "Gemini API"],
     gradient: "from-primary/20 via-accent/10 to-secondary/20",
+    link: "#",
   },
   {
     title: "Recipe Generator",
@@ -35,6 +39,7 @@ const projects = [
       "A dynamic web application that generates and personalizes recipes based on user preferences, featuring a responsive and engaging user experience.",
     tags: ["React JS", "Tailwind CSS", "Generative AI", "Python"],
     gradient: "from-secondary/20 via-primary/10 to-accent/20",
+    link: "#",
   },
   {
     title: "Pharma Genie",
@@ -42,6 +47,7 @@ const projects = [
       "A web platform that simplifies pharmacy sales and inventory management with an intuitive interface, seamless workflows, and interactive location mapping.",
     tags: ["Frontend", "Leaflet JS", "MongoDB", "Flask"],
     gradient: "from-accent/20 via-secondary/10 to-primary/20",
+    link: "#",
   },
 ];
 
@@ -61,9 +67,12 @@ const ProjectsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <div
+            <a
               key={project.title}
-              className="glass-card p-6 group hover:scale-[1.03] transition-all duration-500 relative overflow-hidden"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass-card p-6 group hover:scale-[1.03] transition-all duration-500 relative overflow-hidden block cursor-pointer"
             >
               {/* Gradient overlay */}
               <div
@@ -71,9 +80,8 @@ const ProjectsSection = () => {
               />
 
               <div className="relative z-10">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center mb-4">
                   <Sparkles className="w-8 h-8 text-primary" />
-                  <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors" />
                 </div>
 
                 <h3 className="font-heading text-xl font-bold text-foreground mb-3">
@@ -94,7 +102,7 @@ const ProjectsSection = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
