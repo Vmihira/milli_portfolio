@@ -55,21 +55,31 @@ const Navbar = () => {
             );
           })}
         </div>
-        {isHome ? (
+        <div className="flex items-center gap-4">
           <a
-            href="#contact"
-            className="gradient-btn text-sm !px-6 !py-2"
+            href="https://drive.google.com/file/d/1dqYVVGQo7GWUVob_RlhfdzCuwAUi1A69/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-block glass-card text-xs font-semibold px-5 py-2 hover:bg-white/10 transition-colors"
           >
-            Say Hello
+            View Resume
           </a>
-        ) : (
-          <Link
-            to="/#contact"
-            className="gradient-btn text-sm !px-6 !py-2"
-          >
-            Say Hello
-          </Link>
-        )}
+          {isHome ? (
+            <a
+              href="#contact"
+              className="gradient-btn text-sm !px-6 !py-2"
+            >
+              Say Hello
+            </a>
+          ) : (
+            <Link
+              to="/#contact"
+              className="gradient-btn text-sm !px-6 !py-2"
+            >
+              Say Hello
+            </Link>
+          )}
+        </div>
       </div>
     </nav>
   );

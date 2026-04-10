@@ -48,25 +48,40 @@ const HeroSection = () => {
           Currently crafting education platforms with on-device LLMs.
         </p>
 
-        <div className="animate-fade-up-delay-3 flex items-center justify-center gap-4">
-          {socials.map((social) => (
+        <div className="animate-fade-up-delay-3 flex flex-wrap items-center justify-center gap-4">
+          <div className="flex items-center gap-4">
+            {socials.map((social) => (
+              <a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="glass-card p-3 hover:scale-110 transition-transform duration-300"
+                aria-label={social.label}
+              >
+                <social.icon className="w-5 h-5 text-foreground/70" />
+              </a>
+            ))}
+          </div>
+          
+          <div className="flex flex-wrap items-center justify-center gap-4 ml-0 md:ml-4">
             <a
-              key={social.label}
-              href={social.href}
+              href="https://drive.google.com/file/d/1dqYVVGQo7GWUVob_RlhfdzCuwAUi1A69/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-card p-3 hover:scale-110 transition-transform duration-300"
-              aria-label={social.label}
+              className="glass-card flex items-center gap-2 px-6 py-3 hover:scale-105 transition-all duration-300 font-medium"
             >
-              <social.icon className="w-5 h-5 text-foreground/70" />
+              <FileText className="w-4 h-4 text-primary" />
+              View Resume
             </a>
-          ))}
-          <a
-            href="#projects"
-            className="gradient-btn text-sm ml-4"
-          >
-            View My Work →
-          </a>
+            
+            <a
+              href="#projects"
+              className="gradient-btn text-sm"
+            >
+              View My Work →
+            </a>
+          </div>
         </div>
       </div>
 
