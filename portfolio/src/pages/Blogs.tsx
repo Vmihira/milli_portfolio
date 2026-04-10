@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, ExternalLink, Clock, Calendar } from "lucide-react";
-import { Link } from "react-router-dom";
-
+import { ExternalLink, Clock, Calendar } from "lucide-react";
+import Navbar from "@/components/Navbar";
 const blogs = [
   {
     title: "Elevate Your Development Workflow with CodeMate.ai",
@@ -72,25 +71,12 @@ const blogs = [
 const Blogs = () => {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <Navbar />
       {/* Floating orbs */}
       <div className="fixed top-20 left-10 w-72 h-72 rounded-full bg-primary/10 blur-3xl float-animation pointer-events-none" />
       <div className="fixed bottom-20 right-10 w-96 h-96 rounded-full bg-secondary/10 blur-3xl float-animation-delayed pointer-events-none" />
 
-      <div className="relative z-10 section-container py-24">
-        {/* Back link */}
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.4 }}
-        >
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-12 group"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            Back to Portfolio
-          </Link>
-        </motion.div>
+      <div className="relative z-10 section-container pt-32 pb-24">
 
         {/* Header */}
         <div className="text-center mb-16">
