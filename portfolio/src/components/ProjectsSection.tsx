@@ -2,25 +2,46 @@ import { ExternalLink, Sparkles } from "lucide-react";
 
 const projects = [
   {
+    title: "Voice Assistant",
+    description:
+      "A smart assistant that lets users ask questions via voice or text and delivers accurate, citation-backed answers.",
+    tags: ["Python", "RAG", "Deepgram", "Pinecone", "SerpAPI", "Gen AI"],
+    gradient: "from-primary/25 to-secondary/25",
+  },
+  {
     title: "Web Studio",
     description:
       "AI-powered platform that generates custom, production-ready landing pages with real-time code previews and exports.",
     tags: ["Python", "Flask", "Generative AI", "React JS", "SandPack"],
-    gradient: "from-primary/20 to-secondary/20",
+    gradient: "from-secondary/25 to-accent/25",
   },
   {
     title: "Style AI",
     description:
       "Generative AI fashion platform creating personalized outfit visuals based on user-selected categories.",
     tags: ["Next.js", "Tailwind CSS", "Generative AI", "Python"],
-    gradient: "from-secondary/20 to-accent/20",
+    gradient: "from-accent/25 to-primary/25",
   },
   {
     title: "AI PR Summarizer",
     description:
       "GitHub tool that tracks PRs and generates AI-driven summaries using Gemini APIs for faster code reviews.",
     tags: ["Generative AI", "Flask", "PyGithub", "Gemini API"],
-    gradient: "from-accent/20 to-primary/20",
+    gradient: "from-primary/20 via-accent/10 to-secondary/20",
+  },
+  {
+    title: "Recipe Generator",
+    description:
+      "A dynamic web application that generates and personalizes recipes based on user preferences, featuring a responsive and engaging user experience.",
+    tags: ["React JS", "Tailwind CSS", "Generative AI", "Python"],
+    gradient: "from-secondary/20 via-primary/10 to-accent/20",
+  },
+  {
+    title: "Pharma Genie",
+    description:
+      "A web platform that simplifies pharmacy sales and inventory management with an intuitive interface, seamless workflows, and interactive location mapping.",
+    tags: ["Frontend", "Leaflet JS", "MongoDB", "Flask"],
+    gradient: "from-accent/20 via-secondary/10 to-primary/20",
   },
 ];
 

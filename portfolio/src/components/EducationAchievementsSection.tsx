@@ -9,6 +9,7 @@ const EducationAchievementsSection = () => {
       icon: Crown,
       gradient: "from-primary/10 to-primary/5",
       borderHover: "hover:border-primary/50",
+      textColor: "group-hover:text-primary",
     },
     {
       title: "Top 10 Finalist",
@@ -16,6 +17,7 @@ const EducationAchievementsSection = () => {
       icon: Trophy,
       gradient: "from-secondary/10 to-secondary/5",
       borderHover: "hover:border-secondary/50",
+      textColor: "group-hover:text-secondary",
     },
     {
       title: "Top 39% & 4 Badges",
@@ -23,6 +25,7 @@ const EducationAchievementsSection = () => {
       icon: Award,
       gradient: "from-accent/10 to-accent/5",
       borderHover: "hover:border-accent/50",
+      textColor: "group-hover:text-accent",
     },
     {
       title: "2 Star Rating",
@@ -30,6 +33,7 @@ const EducationAchievementsSection = () => {
       icon: Medal,
       gradient: "from-primary/10 to-secondary/5",
       borderHover: "hover:border-primary/50",
+      textColor: "group-hover:text-primary",
     },
   ];
 
@@ -119,10 +123,10 @@ const EducationAchievementsSection = () => {
                       <item.icon className="w-6 h-6 text-muted-foreground group-hover:text-foreground transition-colors duration-300" />
                     </div>
                   </div>
-                  <h4 className="text-lg font-bold text-foreground mb-1 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-white/70 transition-all duration-300">
+                  <h4 className={`text-lg font-bold text-foreground mb-1 ${item.textColor} transition-all duration-300`}>
                     {item.title}
                   </h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground group-hover:text-foreground/80 transition-colors duration-300">
                     {item.organization}
                   </p>
                 </div>
