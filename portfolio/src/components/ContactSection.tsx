@@ -64,8 +64,8 @@ const ContactSection = () => {
               <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all relative z-10" />
             </motion.a>
 
-            <motion.a
-              href="tel:+918074418799"
+            {/* <motion.a
+              href="tel:+91"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -80,11 +80,11 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground text-lg">Call Me</h3>
-                  <p className="text-muted-foreground text-sm">+91-8074418799</p>
+                  <p className="text-muted-foreground text-sm">+91-</p>
                 </div>
               </div>
               <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-secondary group-hover:translate-x-1 transition-all relative z-10" />
-            </motion.a>
+            </motion.a> */}
 
             <motion.div
               initial={{ opacity: 0, x: -30 }}

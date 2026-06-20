@@ -66,7 +66,7 @@ const HeroSection = () => {
           
           <div className="flex flex-wrap items-center justify-center gap-4 ml-0 md:ml-4">
             <a
-              href="https://drive.google.com/file/d/1dqYVVGQo7GWUVob_RlhfdzCuwAUi1A69/view?usp=sharing"
+              href="https://drive.google.com/file/d/1F7q-n-3EDOsRqRAyAmOKdLOkRrIgnmxn/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="glass-card flex items-center gap-2 px-6 py-3 hover:scale-105 transition-all duration-300 font-medium"

@@ -7,7 +7,7 @@ const projects = [
       "A smart assistant that lets users ask questions via voice or text and delivers accurate, citation-backed answers.",
     tags: ["Python", "RAG", "Deepgram", "Pinecone", "SerpAPI", "Gen AI"],
     gradient: "from-primary/25 to-secondary/25",
-    link: "#",
+    link: "https://jarwiz.streamlit.app/",
   },
   {
     title: "Web Studio",
@@ -15,7 +15,7 @@ const projects = [
       "AI-powered platform that generates custom, production-ready landing pages with real-time code previews and exports.",
     tags: ["Python", "Flask", "Generative AI", "React JS", "SandPack"],
     gradient: "from-secondary/25 to-accent/25",
-    link: "#",
+    link: "https://generatorlandingpage.netlify.app/",
   },
   {
     title: "Style AI",
@@ -23,7 +23,7 @@ const projects = [
       "Generative AI fashion platform creating personalized outfit visuals based on user-selected categories.",
     tags: ["Next.js", "Tailwind CSS", "Generative AI", "Python"],
     gradient: "from-accent/25 to-primary/25",
-    link: "#",
+    link: "https://styleai-beryl.vercel.app/",
   },
   {
     title: "AI PR Summarizer",
@@ -31,7 +31,7 @@ const projects = [
       "GitHub tool that tracks PRs and generates AI-driven summaries using Gemini APIs for faster code reviews.",
     tags: ["Generative AI", "Flask", "PyGithub", "Gemini API"],
     gradient: "from-primary/20 via-accent/10 to-secondary/20",
-    link: "#",
+    link: "https://pr-summarizer.onrender.com/",
   },
   {
     title: "Recipe Generator",
@@ -39,7 +39,7 @@ const projects = [
       "A dynamic web application that generates and personalizes recipes based on user preferences, featuring a responsive and engaging user experience.",
     tags: ["React JS", "Tailwind CSS", "Generative AI", "Python"],
     gradient: "from-secondary/20 via-primary/10 to-accent/20",
-    link: "#",
+    link: "https://cook-pfhm.onrender.com/",
   },
   {
     title: "Pharma Genie",
@@ -47,7 +47,7 @@ const projects = [
       "A web platform that simplifies pharmacy sales and inventory management with an intuitive interface, seamless workflows, and interactive location mapping.",
     tags: ["Frontend", "Leaflet JS", "MongoDB", "Flask"],
     gradient: "from-accent/20 via-secondary/10 to-primary/20",
-    link: "#",
+    link: "https://pharmagenie.onrender.com/",
   },
 ];
 

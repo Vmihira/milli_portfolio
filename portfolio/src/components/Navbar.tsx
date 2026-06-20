@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 const RESUME_URL =
-  "https://drive.google.com/file/d/1dqYVVGQo7GWUVob_RlhfdzCuwAUi1A69/view?usp=sharing";
+  "https://drive.google.com/file/d/1F7q-n-3EDOsRqRAyAmOKdLOkRrIgnmxn/view?usp=sharing";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
