@@ -1,0 +1,216 @@
+[
+  {
+    "id": "4d3f8a52272f",
+    "title": "What Happened When I Retained Lessons in Hindsight Instead of Chat History",
+    "description": "For months, my AI whiteboard teacher “remembered” the conversation by shipping its own previous output back to the model on every request, including thousands of chara...",
+    "url": "https://medium.com/@vinjamurimihira/what-happened-when-i-retained-lessons-in-hindsight-instead-of-chat-history-4d3f8a52272f",
+    "date": "Sep 29, 2026",
+    "pubDate": "2026-09-29T12:41:40.000Z",
+    "readTime": "20 min read",
+    "tags": [
+      "Education",
+      "Hindsight",
+      "Doodo",
+      "Ai Agent"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*ygeRXSrXiVlG9rQQqIMMgg.png"
+  },
+  {
+    "id": "fb2401d36365",
+    "title": "Elevate Your Development Workflow with codemate.ai",
+    "description": "In the ever-evolving world of software development, efficiency and code quality are paramount. Codemate.ai stands out as a powerful AI-driven coding assistant designed...",
+    "url": "https://medium.com/@vinjamurimihira/elevate-your-development-workflow-with-codemate-ai-fb2401d36365",
+    "date": "Sep 23, 2025",
+    "pubDate": "2025-09-23T09:02:20.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Artificial Intelligence",
+      "Codemate",
+      "Vscode",
+      "Ai Coding Assistant",
+      "Full Stack"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*BGyTmfLIDbAn-T_zGexBog.png"
+  },
+  {
+    "id": "c604ed9fd55a",
+    "title": "Model Context Protocol",
+    "description": "Let’s discuss about the following topics in this blog…1. Why MCP ??2. General Architecture of MCP3. Quickstart4. Examples5. References",
+    "url": "https://medium.com/@vinjamurimihira/model-context-protocol-c604ed9fd55a",
+    "date": "Jul 27, 2025",
+    "pubDate": "2025-07-27T02:53:10.000Z",
+    "readTime": "2 min read",
+    "tags": [
+      "Mcp Protocol",
+      "Mcp Server",
+      "Developer",
+      "Servers"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*-69SwLfLj77UCucJ.jpg"
+  },
+  {
+    "id": "ce2c194b8979",
+    "title": "Mastering Prompt Engineering: The Art of Talking to AI",
+    "description": "With the rise of large language models (LLMs) like GPT-4, Claude, and Gemini, interacting with AI systems has become a daily norm for developers, researchers, and even...",
+    "url": "https://medium.com/@vinjamurimihira/mastering-prompt-engineering-the-art-of-talking-to-ai-ce2c194b8979",
+    "date": "Jul 7, 2025",
+    "pubDate": "2025-07-07T10:36:45.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Prompt",
+      "Artif",
+      "Ai",
+      "Prompt Engineering",
+      "Prompting Technique"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1009/0*lBi3cFGJH2P2VQtm.JPG"
+  },
+  {
+    "id": "be7225094553",
+    "title": "Mastering Firebase Studio: The Future of Firebase Project Management",
+    "description": "Firebase has long been a go-to backend platform for developers building modern web and mobile applications. With the introduction of Firebase Studio, Google has taken...",
+    "url": "https://medium.com/@vinjamurimihira/mastering-firebase-studio-the-future-of-firebase-project-management-be7225094553",
+    "date": "Apr 29, 2025",
+    "pubDate": "2025-04-29T06:34:35.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Google Firebase Studio",
+      "Developer",
+      "Project Management Tool",
+      "Firebase",
+      "Google"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*sIQCekfMnC_ke4gi"
+  },
+  {
+    "id": "c3ea10a82457",
+    "title": "Understanding Model Context Protocol (MCP) by Anthropic: A Step Towards Model Interoperability",
+    "description": "As AI models become more powerful and versatile, the ecosystem around them is also evolving. One recent development aiming to standardize and simplify how developers i...",
+    "url": "https://medium.com/@vinjamurimihira/understanding-model-context-protocol-mcp-by-anthropic-a-step-towards-model-interoperability-c3ea10a82457",
+    "date": "Apr 16, 2025",
+    "pubDate": "2025-04-16T16:04:12.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Model Control Protocol",
+      "Artificial Intelligence",
+      "Agent Based Modeling",
+      "Agentic Ai",
+      "Anthropic Ai"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/600/0*oGBQedtgt8NVTVxH.jpg"
+  },
+  {
+    "id": "07d33bae5f83",
+    "title": "AI Tools Revolutionizing Web Development in 2025",
+    "description": "The world of web development is evolving faster than ever, and at the heart of this transformation is Artificial Intelligence. AI tools today are not just assisting de...",
+    "url": "https://medium.com/@vinjamurimihira/ai-tools-revolutionizing-web-development-in-2025-07d33bae5f83",
+    "date": "Apr 5, 2025",
+    "pubDate": "2025-04-05T16:50:13.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Ai Tools",
+      "Ai",
+      "Top 10",
+      "Tools For Design",
+      "Web Development"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*Q14yLkHCFZiEzEfwMR5A1g.jpeg"
+  },
+  {
+    "id": "0ba00d3f0def",
+    "title": "Perplexity AI: The Future of AI-Powered Search",
+    "description": "What is Perplexity AI?Perplexity AI is a cutting-edge AI-powered search engine and research assistant that delivers accurate, cited, and conversational responses. Unli...",
+    "url": "https://medium.com/@vinjamurimihira/perplexity-ai-the-future-of-ai-powered-search-0ba00d3f0def",
+    "date": "Apr 1, 2025",
+    "pubDate": "2025-04-01T17:50:26.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Ai",
+      "Artificial Intelligence",
+      "Search Engines",
+      "Search Engine Optimizati",
+      "Perplexity Ai"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*DqeJXoqTmpiI160O.jpg"
+  },
+  {
+    "id": "f54c9fd3138c",
+    "title": "Mastra AI: The TypeScript Framework for AI-Powered Applications",
+    "description": "Enter Mastra AI — an open-source TypeScript framework designed to simplify the development of AI-driven applications. Mastra provides a structured way to create AI age...",
+    "url": "https://medium.com/@vinjamurimihira/mastra-ai-the-typescript-framework-for-ai-powered-applications-f54c9fd3138c",
+    "date": "Mar 23, 2025",
+    "pubDate": "2025-03-23T11:41:55.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "Web Development",
+      "Typescript",
+      "Ai",
+      "Ai Framework",
+      "Npm"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*Jt5LlB_-U1L_yp1A"
+  },
+  {
+    "id": "fa8a564fde4b",
+    "title": "Retrieval-Augmented Generation (RAG): The Future of Intelligent AI",
+    "description": "Imagine chatting with an AI assistant that always gives accurate, real-time, and fact-based answers — no hallucinations, no outdated knowledge, just precise and releva...",
+    "url": "https://medium.com/@vinjamurimihira/retrieval-augmented-generation-rag-the-future-of-intelligent-ai-fa8a564fde4b",
+    "date": "Mar 13, 2025",
+    "pubDate": "2025-03-13T09:54:44.000Z",
+    "readTime": "2 min read",
+    "tags": [
+      "Langchain Agents",
+      "Retrieval Augmented Gen",
+      "Intelligent Automation",
+      "Ai",
+      "Chromadb"
+    ],
+    "thumbnail": "https://cdn-images-1.medium.com/max/1024/0*7X3qNpgkPyjxSVHV.jpg"
+  },
+  {
+    "id": "7db110472728",
+    "title": "Agentic AI: The Next Evolution in Autonomous Intelligence",
+    "description": "Agentic AI stands out as a revolutionary approach that enables AI systems to act autonomously, make decisions, and interact dynamically with the world.",
+    "url": "https://medium.com/@vinjamurimihira/agentic-ai-the-next-evolution-in-autonomous-intelligence-7db110472728",
+    "date": "Mar 10, 2025",
+    "pubDate": "2025-03-10T12:00:00.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "AI",
+      "Agentic AI",
+      "Autonomous Agents"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "110220462bc7",
+    "title": "The Rise of Generative AI: Shaping the Future of Creativity and Innovation",
+    "description": "Generative AI is no longer a futuristic concept — it’s here, transforming industries, revolutionizing creativity, and reshaping how we interact with technology.",
+    "url": "https://medium.com/@vinjamurimihira/the-rise-of-generative-ai-shaping-the-future-of-creativity-and-innovation-110220462bc7",
+    "date": "Mar 5, 2025",
+    "pubDate": "2025-03-05T12:00:00.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "AI",
+      "Generative AI",
+      "Innovation"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "8e8e37b2cc19",
+    "title": "The AI Revolution: Reshaping the Future One Algorithm at a Time",
+    "description": "Artificial Intelligence is no longer just a futuristic concept — it’s the backbone of modern innovation.",
+    "url": "https://medium.com/@vinjamurimihira/the-ai-revolution-reshaping-the-future-one-algorithm-at-a-time-8e8e37b2cc19",
+    "date": "Feb 15, 2025",
+    "pubDate": "2025-02-15T12:00:00.000Z",
+    "readTime": "3 min read",
+    "tags": [
+      "AI",
+      "Future",
+      "Innovation",
+      "Technology"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
+  }
+]
